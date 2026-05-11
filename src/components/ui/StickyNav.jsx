@@ -5,7 +5,7 @@ import {
   useMotionValueEvent,
   useScroll,
 } from 'framer-motion';
-import { Check, Link2, Menu, Printer, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useT } from '../../i18n/LanguageContext.jsx';
 import LanguageToggle from '../../i18n/LanguageToggle.jsx';
 import { useActiveSection } from '../../lib/useActiveSection.js';
@@ -27,7 +27,6 @@ export default function StickyNav() {
   const { scrollY } = useScroll();
   const [visible, setVisible] = useState(false);
   const [open, setOpen] = useState(false);
-  const [copied, setCopied] = useState(false);
   const active = useActiveSection(sectionIds);
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
@@ -52,32 +51,6 @@ export default function StickyNav() {
   const scrollTop = () => {
     setOpen(false);
     smoothScrollTo(0);
-  };
-
-  const handlePrint = () => {
-    setOpen(false);
-    window.print();
-  };
-
-  const handleCopyLink = async () => {
-    if (typeof window === 'undefined') return;
-    const url = window.location.href;
-    try {
-      if (navigator.clipboard?.writeText) {
-        await navigator.clipboard.writeText(url);
-      } else {
-        const input = document.createElement('input');
-        input.value = url;
-        document.body.appendChild(input);
-        input.select();
-        document.execCommand('copy');
-        document.body.removeChild(input);
-      }
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1800);
-    } catch {
-      /* swallowed: clipboard may be blocked */
-    }
   };
 
   return (
@@ -135,48 +108,6 @@ export default function StickyNav() {
             </ul>
 
             <div className="flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={handleCopyLink}
-                aria-label={copied ? 'Link copiado' : 'Copiar link'}
-                className="relative inline-flex size-9 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/60 text-zinc-300 transition-colors hover:border-accent-500/40 hover:text-zinc-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
-              >
-                <AnimatePresence mode="wait" initial={false}>
-                  {copied ? (
-                    <motion.span
-                      key="check"
-                      initial={{ scale: 0.6, opacity: 0 }}
-                      animate={{ scale: 1, opacity: 1 }}
-                      exit={{ scale: 0.6, opacity: 0 }}
-                      transition={{ duration: 0.15 }}
-                      className="inline-flex"
-                    >
-                      <Check className="size-4 text-emerald-400" aria-hidden="true" />
-                    </motion.span>
-                  ) : (
-                    <motion.span
-                      key="link"
-                      initial={{ scale: 0.6, opacity: 0 }}
-                      animate={{ scale: 1, opacity: 1 }}
-                      exit={{ scale: 0.6, opacity: 0 }}
-                      transition={{ duration: 0.15 }}
-                      className="inline-flex"
-                    >
-                      <Link2 className="size-4" aria-hidden="true" />
-                    </motion.span>
-                  )}
-                </AnimatePresence>
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                aria-label="Imprimir / Guardar como PDF"
-                className="hidden size-9 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/60 text-zinc-300 transition-colors hover:border-accent-500/40 hover:text-zinc-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 sm:inline-flex"
-              >
-                <Printer className="size-4" aria-hidden="true" />
-              </button>
-
               <LanguageToggle compact />
 
               <button
@@ -194,23 +125,6 @@ export default function StickyNav() {
               </button>
             </div>
           </nav>
-
-          <AnimatePresence>
-            {copied ? (
-              <motion.div
-                key="toast"
-                initial={{ y: -8, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                exit={{ y: -8, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-                role="status"
-                aria-live="polite"
-                className="pointer-events-none absolute -bottom-12 right-4 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-medium text-emerald-200 shadow-lg shadow-black/40 backdrop-blur"
-              >
-                Link copiado al portapapeles
-              </motion.div>
-            ) : null}
-          </AnimatePresence>
 
           <AnimatePresence>
             {open ? (
@@ -243,16 +157,6 @@ export default function StickyNav() {
                       </li>
                     );
                   })}
-                  <li>
-                    <button
-                      type="button"
-                      onClick={handlePrint}
-                      className="flex w-full items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium text-zinc-300 transition-colors hover:bg-zinc-800/60 hover:text-zinc-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400"
-                    >
-                      <Printer className="size-4" aria-hidden="true" />
-                      Imprimir / PDF
-                    </button>
-                  </li>
                 </ul>
               </motion.div>
             ) : null}
