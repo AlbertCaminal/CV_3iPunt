@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0c"/>
+      <stop offset="100%" stop-color="#111114"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" ry="12" fill="none" stroke="rgba(96,165,250,0.25)" stroke-width="2"/>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="35" font-weight="800" fill="url(#fg)">A</text>
+</svg>
