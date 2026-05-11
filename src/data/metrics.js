@@ -12,9 +12,7 @@ export const metrics = [
   {
     id: 'mgmt',
     translationKey: 'mgmt',
-    prefix: '-',
-    value: 90,
-    suffix: '%',
+    isStatic: true,
     accent: 'cyan',
     span: 'lg:col-span-2',
   },

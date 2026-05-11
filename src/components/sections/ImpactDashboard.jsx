@@ -1,4 +1,4 @@
-import { TrendingUp, Gauge, Timer, ArrowRight } from 'lucide-react';
+import { TrendingUp, Rocket, Timer, ArrowRight } from 'lucide-react';
 import BentoCard from '../ui/BentoCard.jsx';
 import AnimatedCounter from '../ui/AnimatedCounter.jsx';
 import SectionHeader from '../ui/SectionHeader.jsx';
@@ -7,7 +7,7 @@ import { useT } from '../../i18n/LanguageContext.jsx';
 
 const iconByMetric = {
   wp: TrendingUp,
-  mgmt: Gauge,
+  mgmt: Rocket,
   sig: Timer,
 };
 

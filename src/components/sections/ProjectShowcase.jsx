@@ -1,12 +1,18 @@
 import { motion } from 'framer-motion';
-import { Mail, Zap, HeartPulse, CheckCircle2 } from 'lucide-react';
+import {
+  Mail,
+  Zap,
+  HeartPulse,
+  WandSparkles,
+  CheckCircle2,
+} from 'lucide-react';
 import BentoCard from '../ui/BentoCard.jsx';
 import SectionHeader from '../ui/SectionHeader.jsx';
 import { staggerContainer } from '../../lib/motion.js';
 import { projects } from '../../data/projects.js';
 import { useT } from '../../i18n/LanguageContext.jsx';
 
-const iconMap = { Mail, Zap, HeartPulse };
+const iconMap = { Mail, Zap, HeartPulse, WandSparkles };
 
 export default function ProjectShowcase() {
   const t = useT();
@@ -35,7 +41,7 @@ export default function ProjectShowcase() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: '-80px' }}
-        className="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-1 gap-4 sm:gap-5 lg:grid-cols-3"
       >
         {projects.map((project, index) => {
           const Icon = iconMap[project.icon] ?? Zap;
@@ -45,7 +51,10 @@ export default function ProjectShowcase() {
               key={project.id}
               accent={project.accent}
               delay={index * 0.08}
-              className="flex h-full flex-col gap-6"
+              className={[
+                'flex h-full flex-col gap-6',
+                project.span ?? 'lg:col-span-1',
+              ].join(' ')}
             >
               <div className="flex items-center justify-between">
                 <span

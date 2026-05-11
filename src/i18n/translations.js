@@ -32,9 +32,14 @@ export const translations = {
             'Reducción del tiempo de maquetación de 2 días a 2 horas gracias a flujos optimizados con IA.',
         },
         mgmt: {
-          label: 'Tiempo de Gestión',
+          label: 'Tiempo de entrega',
+          beforeLabel: 'Pendiente',
+          afterLabel: 'Resuelto en',
+          before: '6 meses sin solución',
+          after: '1 semana, con tutorial',
           description:
-            'Automatización de recursos y despliegues, eliminando cuellos de botella.',
+            'Pongo en producción en días lo que llevaba meses pendiente. Ejemplo concreto: el sistema centralizado de firmas con tracking en Google Analytics, presentado al Grupo 480.',
+          staticValue: '1 semana',
         },
         sig: {
           label: 'Despliegue de Firmas',
@@ -83,19 +88,25 @@ export const translations = {
         signatures: {
           title: 'Sistema Centralizado de Firmas',
           description:
-            'Script de automatización global validado por el Grupo 480. Incluye tracking de clics en Google Analytics (requisito pendiente durante 6 meses solucionado en 1 semana).',
-          badge: 'Validado por Grupo 480',
+            'Centralicé el cambio de firma del correo de toda la empresa. Antes cada empleado lo hacía manualmente (15–30 min cada uno, y muchos se equivocaban). Ahora un solo script actualiza a toda la plantilla en 5 minutos. Añadí tracking de clics en cada imagen y URL con Google Analytics — requisito que llevaba 6 meses pendiente, resuelto e implantado en 1 semana, con tutorial incluido. El Grupo 480 pidió una presentación interna para replicarlo.',
+          badge: 'Presentado al Grupo 480',
+        },
+        wordpressAI: {
+          title: 'Maquetación WordPress con IA',
+          description:
+            'Gracias al entrenamiento del equipo y a la integración de IA en mi flujo de trabajo, paso de 2 días a 2 horas por maquetación. +800% de eficiencia en uno de los procesos con más volumen de la empresa.',
+          badge: '+800% eficiencia',
         },
         landings: {
           title: 'Generador Dinámico de Landings',
           description:
-            'Herramienta interna en el servidor para crear landings de clientes en minutos, ahorrando costes directos de desarrollo y centralizando recursos.',
-          badge: 'Ahorro de costes',
+            'Herramienta interna en el servidor para crear landings de cliente sin repetir el setup cada vez. En medio día estaba funcionando, ahorrando 30–60 min por cada landing nueva y centralizando los recursos.',
+          badge: 'Medio día de desarrollo',
         },
-        health: {
+        healthApp: {
           title: 'Health App Corporativa',
           description:
-            'App social gamificada a coste cero. Filosofía: Mayor salud física = Mayor rendimiento y menor absentismo.',
+            'App social gamificada para incentivar la actividad física del equipo como vía a mayor rendimiento y menor absentismo. Construida a coste cero. Lista para producción, pendiente de afinar detalles antes de desplegar.',
           badge: 'Coste cero',
         },
       },
@@ -150,11 +161,11 @@ export const translations = {
       eyebrow: 'Propuesta de Valor',
       titleStart: '¿Por qué',
       titleHighlight: 'invertir en mi perfil?',
-      body: 'Mi objetivo es seguir detectando procesos ineficientes y resolverlos con tecnología e IA. Contratarme significa absorber más clientes sin multiplicar los costes operativos.',
+      body: 'Mi objetivo desde el primer día ha sido demostrar que contratarme tiene un retorno medible. Cada formación que me habéis dado se ha traducido en horas ahorradas, costes evitados y validaciones externas como la del Grupo 480. Quiero seguir aquí escalando lo que ya he empezado: detectar procesos ineficientes y resolverlos con tecnología e IA, sin multiplicar los costes operativos.',
       chips: [
-        { label: 'Automatización', value: 'IA aplicada' },
+        { label: 'Velocidad', value: 'Días, no meses' },
         { label: 'Coste operativo', value: 'No escala' },
-        { label: 'Capacidad', value: 'Más clientes' },
+        { label: 'Validación', value: 'Grupo 480' },
       ],
       contactTitle: 'Hablemos',
       contactSubtitle:
@@ -207,9 +218,14 @@ export const translations = {
             'Reducció del temps de maquetació de 2 dies a 2 hores gràcies a fluxos optimitzats amb IA.',
         },
         mgmt: {
-          label: 'Temps de Gestió',
+          label: 'Temps de lliurament',
+          beforeLabel: 'Pendent',
+          afterLabel: 'Resolt en',
+          before: '6 mesos sense solució',
+          after: '1 setmana, amb tutorial',
           description:
-            "Automatització de recursos i desplegaments, eliminant colls d'ampolla.",
+            "Poso en producció en dies el que portava mesos pendent. Exemple concret: el sistema centralitzat de signatures amb tracking a Google Analytics, presentat al Grup 480.",
+          staticValue: '1 setmana',
         },
         sig: {
           label: 'Desplegament de Signatures',
@@ -258,19 +274,25 @@ export const translations = {
         signatures: {
           title: 'Sistema Centralitzat de Signatures',
           description:
-            "Script d'automatització global validat pel Grup 480. Inclou tracking de clics a Google Analytics (requisit pendent durant 6 mesos solucionat en 1 setmana).",
-          badge: 'Validat pel Grup 480',
+            "Vaig centralitzar el canvi de signatura del correu de tota l'empresa. Abans cada empleat ho feia manualment (15–30 min cadascú, i molts s'equivocaven). Ara un sol script actualitza tota la plantilla en 5 minuts. Hi vaig afegir tracking de clics a cada imatge i URL amb Google Analytics — requisit que portava 6 mesos pendent, resolt i implantat en 1 setmana, amb tutorial inclòs. El Grup 480 va demanar una presentació interna per replicar-ho.",
+          badge: 'Presentat al Grup 480',
+        },
+        wordpressAI: {
+          title: 'Maquetació WordPress amb IA',
+          description:
+            "Gràcies a l'entrenament de l'equip i a la integració d'IA en el meu flux de treball, passo de 2 dies a 2 hores per maquetació. +800% d'eficiència en un dels processos amb més volum de l'empresa.",
+          badge: '+800% eficiència',
         },
         landings: {
           title: 'Generador Dinàmic de Landings',
           description:
-            "Eina interna al servidor per crear landings de clients en minuts, estalviant costos directes de desenvolupament i centralitzant recursos.",
-          badge: 'Estalvi de costos',
+            "Eina interna al servidor per crear landings de client sense repetir el setup cada cop. En mig dia ja estava funcionant, estalviant 30–60 min per cada landing nova i centralitzant els recursos.",
+          badge: 'Mig dia de desenvolupament',
         },
-        health: {
+        healthApp: {
           title: 'Health App Corporativa',
           description:
-            'App social gamificada a cost zero. Filosofia: Major salut física = Major rendiment i menor absentisme.',
+            "App social gamificada per incentivar l'activitat física de l'equip com a via a major rendiment i menor absentisme. Construïda a cost zero. Llesta per a producció, pendent d'afinar detalls abans de desplegar.",
           badge: 'Cost zero',
         },
       },
@@ -325,11 +347,11 @@ export const translations = {
       eyebrow: 'Proposta de Valor',
       titleStart: 'Per què',
       titleHighlight: 'invertir en el meu perfil?',
-      body: "El meu objectiu és seguir detectant processos ineficients i resoldre'ls amb tecnologia i IA. Contractar-me significa absorbir més clients sense multiplicar els costos operatius.",
+      body: "El meu objectiu des del primer dia ha estat demostrar que contractar-me té un retorn mesurable. Cada formació que m'heu donat s'ha traduït en hores estalviades, costos evitats i validacions externes com la del Grup 480. Vull continuar aquí escalant el que ja he començat: detectar processos ineficients i resoldre'ls amb tecnologia i IA, sense multiplicar els costos operatius.",
       chips: [
-        { label: 'Automatització', value: 'IA aplicada' },
+        { label: 'Velocitat', value: 'Dies, no mesos' },
         { label: 'Cost operatiu', value: 'No escala' },
-        { label: 'Capacitat', value: 'Més clients' },
+        { label: 'Validació', value: 'Grup 480' },
       ],
       contactTitle: 'Parlem',
       contactSubtitle:
