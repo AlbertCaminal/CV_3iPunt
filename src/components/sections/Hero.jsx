@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Sparkles } from 'lucide-react';
+import { Mail, Sparkles } from 'lucide-react';
 import { staggerContainer, fadeInUp } from '../../lib/motion.js';
 import { smoothScrollTo } from '../../lib/useLenis.js';
 import { useT } from '../../i18n/LanguageContext.jsx';
@@ -10,7 +10,7 @@ export default function Hero() {
 
   const handleScroll = (event) => {
     event.preventDefault();
-    smoothScrollTo('#impact');
+    smoothScrollTo('#contact');
   };
 
   return (
@@ -54,19 +54,12 @@ export default function Hero() {
 
         <motion.div variants={fadeInUp} className="pt-2">
           <a
-            href="#impact"
+            href="#contact"
             onClick={handleScroll}
             className="group relative inline-flex items-center gap-3 rounded-full border border-accent-500/40 bg-accent-500/10 px-6 py-3 text-sm font-semibold text-zinc-50 transition-all duration-300 hover:border-accent-400 hover:bg-accent-500/20 hover:shadow-glow-blue focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 sm:text-base"
           >
+            <Mail className="size-4" aria-hidden="true" />
             <span>{t.hero.cta}</span>
-            <motion.span
-              animate={{ y: [0, 4, 0] }}
-              transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
-              className="inline-flex"
-              aria-hidden="true"
-            >
-              <ArrowDown className="size-4" />
-            </motion.span>
           </a>
         </motion.div>
       </motion.div>

@@ -3,6 +3,7 @@ import BentoCard from '../ui/BentoCard.jsx';
 import { useT } from '../../i18n/LanguageContext.jsx';
 import { contact } from '../../data/contact.js';
 import { smoothScrollTo } from '../../lib/useLenis.js';
+import DownloadPdfButton from '../ui/DownloadPdfButton.jsx';
 
 export default function ValueProposition() {
   const t = useT();
@@ -102,6 +103,8 @@ export default function ValueProposition() {
                 aria-hidden="true"
               />
             </a>
+
+            <DownloadPdfButton />
           </div>
 
           <p className="mt-4 text-xs text-zinc-500">{contact.email}</p>

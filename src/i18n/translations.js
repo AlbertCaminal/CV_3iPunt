@@ -16,7 +16,7 @@ export const translations = {
       titleHighlight: 'a resultados en días.',
       subtitle:
         'Maximizando la rentabilidad de las empresas mediante IA, automatización y desarrollo ágil. Ahorrando horas de trabajo para escalar los beneficios.',
-      cta: 'Ver impacto en números',
+      cta: 'Contactar',
     },
     impact: {
       eyebrow: 'Impact Dashboard',
@@ -129,10 +129,10 @@ export const translations = {
     },
     timeline: {
       eyebrow: 'Trayectoria',
-      titleStart: '6 meses,',
+      titleStart: '7 meses,',
       titleHighlight: 'curva de impacto.',
       description:
-        'Cronología de impacto: 6 meses de resultados reales en mi última etapa.',
+        'Cronología de impacto: 7 meses de resultados reales en mi última etapa.',
       events: {
         onboarding: {
           month: 'Mes 1–2',
@@ -201,6 +201,35 @@ export const translations = {
       footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
       mailSubject: 'Hablemos · Portfolio de impacto',
     },
+    pdf: {
+      cta: 'Descargar resumen (PDF)',
+      generating: 'Generando PDF…',
+      filename: 'Albert-Caminal-Resumen',
+      portfolioLabel: 'Portfolio completo',
+      portfolioUrl: 'https://albert-caminal.vercel.app',
+      sections: {
+        impact: 'Impacto medible',
+        projects: 'Proyectos clave',
+        timeline: 'Trayectoria (7 meses)',
+        method: 'Metodología',
+        stack: 'Stack principal',
+        contact: 'Contacto',
+      },
+      metrics: [
+        'WordPress: +800% (2 días → 2 h por maquetación)',
+        'Entrega: requisito 6 meses pendiente → 1 semana en producción',
+        'Firmas email: 15–30 min/empleado → 5 min toda la empresa',
+        'Moodle LM: 2 semanas de producción → 2 días',
+      ],
+      projects: [
+        'Generador de contenidos LM (Moodle)',
+        'Sistema centralizado de firmas + Google Analytics',
+        'Maquetación WordPress con IA',
+        'Generador dinámico de landings',
+        'Health App corporativa (MVP, coste cero)',
+      ],
+      methodSteps: ['Detectar procesos manuales', 'Automatizar con IA/scripts', 'Escalar y documentar'],
+    },
     a11y: {
       languageToggle: 'Cambiar idioma',
       openMenu: 'Abrir menú',
@@ -225,7 +254,7 @@ export const translations = {
       titleHighlight: 'a resultats en dies.',
       subtitle:
         "Maximitzant la rendibilitat de les empreses mitjançant IA, automatització i desenvolupament àgil. Estalviant hores de treball per escalar els beneficis.",
-      cta: 'Veure impacte en números',
+      cta: 'Contactar',
     },
     impact: {
       eyebrow: "Panell d'Impacte",
@@ -338,10 +367,10 @@ export const translations = {
     },
     timeline: {
       eyebrow: 'Trajectòria',
-      titleStart: '6 mesos,',
+      titleStart: '7 mesos,',
       titleHighlight: "corba d'impacte.",
       description:
-        "Cronologia d'impacte: 6 mesos de resultats reals a la meva última etapa.",
+        "Cronologia d'impacte: 7 mesos de resultats reals a la meva última etapa.",
       events: {
         onboarding: {
           month: 'Mes 1–2',
@@ -410,6 +439,35 @@ export const translations = {
       footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
       mailSubject: 'Parlem · Portfolio d\'impacte',
     },
+    pdf: {
+      cta: 'Descarregar resum (PDF)',
+      generating: 'Generant PDF…',
+      filename: 'Albert-Caminal-Resum',
+      portfolioLabel: 'Portfolio complet',
+      portfolioUrl: 'https://albert-caminal.vercel.app',
+      sections: {
+        impact: 'Impacte mesurable',
+        projects: 'Projectes clau',
+        timeline: 'Trajectòria (7 mesos)',
+        method: 'Metodologia',
+        stack: 'Stack principal',
+        contact: 'Contacte',
+      },
+      metrics: [
+        'WordPress: +800% (2 dies → 2 h per maquetació)',
+        'Lliurament: requisit 6 mesos pendent → 1 setmana en producció',
+        "Signatures email: 15–30 min/empleat → 5 min tota l'empresa",
+        'Moodle LM: 2 setmanes de producció → 2 dies',
+      ],
+      projects: [
+        'Generador de continguts LM (Moodle)',
+        'Sistema centralitzat de signatures + Google Analytics',
+        'Maquetació WordPress amb IA',
+        'Generador dinàmic de landings',
+        'Health App corporativa (MVP, cost zero)',
+      ],
+      methodSteps: ['Detectar processos manuals', 'Automatitzar amb IA/scripts', 'Escalar i documentar'],
+    },
     a11y: {
       languageToggle: 'Canviar idioma',
       openMenu: 'Obrir menú',
@@ -434,7 +492,7 @@ export const translations = {
       titleHighlight: 'to results in days.',
       subtitle:
         'Maximizing business profitability through AI, automation, and agile development. Saving work hours to scale profits.',
-      cta: 'See impact in numbers',
+      cta: 'Get in touch',
     },
     impact: {
       eyebrow: 'Impact Dashboard',
@@ -547,10 +605,10 @@ export const translations = {
     },
     timeline: {
       eyebrow: 'Timeline',
-      titleStart: '6 months,',
+      titleStart: '7 months,',
       titleHighlight: 'impact curve.',
       description:
-        'Impact timeline: 6 months of real results in my latest role.',
+        'Impact timeline: 7 months of real results in my latest role.',
       events: {
         onboarding: {
           month: 'Month 1–2',
@@ -618,6 +676,35 @@ export const translations = {
       backTop: 'Back to top',
       footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
       mailSubject: 'Let’s talk · Impact portfolio',
+    },
+    pdf: {
+      cta: 'Download summary (PDF)',
+      generating: 'Generating PDF…',
+      filename: 'Albert-Caminal-Summary',
+      portfolioLabel: 'Full portfolio',
+      portfolioUrl: 'https://albert-caminal.vercel.app',
+      sections: {
+        impact: 'Measurable impact',
+        projects: 'Key projects',
+        timeline: 'Timeline (7 months)',
+        method: 'Methodology',
+        stack: 'Core stack',
+        contact: 'Contact',
+      },
+      metrics: [
+        'WordPress: +800% (2 days → 2 h per layout)',
+        'Delivery: 6-month pending requirement → 1 week in production',
+        'Email signatures: 15–30 min/employee → 5 min company-wide',
+        'Moodle LM: 2 weeks production → 2 days',
+      ],
+      projects: [
+        'LM content generator (Moodle)',
+        'Centralized signature system + Google Analytics',
+        'AI-powered WordPress layout',
+        'Dynamic landing generator',
+        'Corporate health app (MVP, zero cost)',
+      ],
+      methodSteps: ['Detect manual processes', 'Automate with AI/scripts', 'Scale and document'],
     },
     a11y: {
       languageToggle: 'Change language',
