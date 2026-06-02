@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ScanSearch, Cpu, Rocket, ArrowRight } from 'lucide-react';
+import { ScanSearch, Cpu, Rocket } from 'lucide-react';
 import BentoCard from '../ui/BentoCard.jsx';
 import SectionHeader from '../ui/SectionHeader.jsx';
 import { staggerContainer } from '../../lib/motion.js';
@@ -41,14 +41,13 @@ export default function Methodology() {
         {methodologySteps.map((step, index) => {
           const Icon = iconMap[step.icon] ?? Cpu;
           const stepTranslation = t.methodology.steps[step.translationKey];
-          const isLast = index === methodologySteps.length - 1;
 
           return (
             <BentoCard
               key={step.id}
               accent={step.accent}
               delay={index * 0.08}
-              className="relative flex h-full flex-col gap-5"
+              className="flex h-full flex-col gap-5"
             >
               <div className="flex items-center justify-between">
                 <span
@@ -78,15 +77,6 @@ export default function Methodology() {
                   {stepTranslation.description}
                 </p>
               </div>
-
-              {!isLast ? (
-                <span
-                  aria-hidden="true"
-                  className="absolute -right-2 top-1/2 hidden -translate-y-1/2 text-zinc-700 md:block"
-                >
-                  <ArrowRight className="size-5" />
-                </span>
-              ) : null}
             </BentoCard>
           );
         })}

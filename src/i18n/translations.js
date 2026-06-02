@@ -12,8 +12,8 @@ export const translations = {
     },
     hero: {
       tagline: 'Desarrollador Full Stack · IA aplicada y automatización',
-      titleLine1: 'Transformo procesos manuales',
-      titleHighlight: 'en eficiencia digital.',
+      titleLine1: 'De procesos manuales',
+      titleHighlight: 'a resultados en días.',
       subtitle:
         'Maximizando la rentabilidad de las empresas mediante IA, automatización y desarrollo ágil. Ahorrando horas de trabajo para escalar los beneficios.',
       cta: 'Ver impacto en números',
@@ -51,6 +51,16 @@ export const translations = {
             'Antes: 15–30 min por empleado. Ahora: 5 min para toda la empresa.',
           staticValue: '5 min',
         },
+        moodle: {
+          label: 'Generador de contenidos LM',
+          beforeLabel: 'Antes',
+          afterLabel: 'Ahora',
+          before: '2 semanas de producción manual',
+          after: '2 días con herramienta externa',
+          description:
+            'Automatización de la creación de contenidos en Moodle. De dos semanas de trabajo a dos días, con el mismo estándar de calidad.',
+          staticValue: '2 días',
+        },
       },
     },
     methodology: {
@@ -85,6 +95,12 @@ export const translations = {
       description:
         'Una selección de iniciativas desarrolladas en entornos reales. Todas en producción o validadas internamente.',
       items: {
+        moodle: {
+          title: 'Generador de contenidos LM',
+          description:
+            'Herramienta externa que automatiza la creación y estructuración de contenidos en Moodle. Un proceso que antes requería dos semanas de trabajo manual ahora se completa en dos días, manteniendo el control de calidad y la revisión del equipo.',
+          badge: 'Proyecto más reciente',
+        },
         signatures: {
           title: 'Sistema Centralizado de Firmas',
           description:
@@ -148,6 +164,12 @@ export const translations = {
           description:
             'Herramienta interna en el servidor para crear landings de clientes en minutos, centralizando recursos y ahorrando coste directo de desarrollo.',
         },
+        moodle: {
+          month: 'Reciente',
+          title: 'Generador de contenidos LM',
+          description:
+            'Herramienta externa para contenidos en Moodle: de 2 semanas de producción manual a 2 días por ciclo, con revisión y calidad controladas.',
+        },
       },
     },
     stack: {
@@ -199,8 +221,8 @@ export const translations = {
     },
     hero: {
       tagline: 'Desenvolupador Full Stack · IA aplicada i automatització',
-      titleLine1: 'Transformo processos manuals',
-      titleHighlight: "en eficiència digital.",
+      titleLine1: 'De processos manuals',
+      titleHighlight: 'a resultats en dies.',
       subtitle:
         "Maximitzant la rendibilitat de les empreses mitjançant IA, automatització i desenvolupament àgil. Estalviant hores de treball per escalar els beneficis.",
       cta: 'Veure impacte en números',
@@ -238,6 +260,16 @@ export const translations = {
             "Abans: 15–30 min per empleat. Ara: 5 min per a tota l'empresa.",
           staticValue: '5 min',
         },
+        moodle: {
+          label: 'Generador de continguts LM',
+          beforeLabel: 'Abans',
+          afterLabel: 'Ara',
+          before: '2 setmanes de producció manual',
+          after: '2 dies amb eina externa',
+          description:
+            "Automatització de la creació de continguts a Moodle. De dues setmanes de treball a dos dies, amb el mateix estàndard de qualitat.",
+          staticValue: '2 dies',
+        },
       },
     },
     methodology: {
@@ -272,6 +304,12 @@ export const translations = {
       description:
         "Una selecció d'iniciatives desenvolupades en entorns reals. Totes en producció o validades internament.",
       items: {
+        moodle: {
+          title: 'Generador de continguts LM',
+          description:
+            "Eina externa que automatitza la creació i l'estructuració de continguts a Moodle. Un procés que abans requeria dues setmanes de treball manual ara es completa en dos dies, mantenint el control de qualitat i la revisió de l'equip.",
+          badge: 'Projecte més recent',
+        },
         signatures: {
           title: 'Sistema Centralitzat de Signatures',
           description:
@@ -335,6 +373,12 @@ export const translations = {
           description:
             "Eina interna al servidor per crear landings de clients en minuts, centralitzant recursos i estalviant cost directe de desenvolupament.",
         },
+        moodle: {
+          month: 'Recent',
+          title: 'Generador de continguts LM',
+          description:
+            "Eina externa per a continguts a Moodle: de 2 setmanes de producció manual a 2 dies per cicle, amb revisió i qualitat controlades.",
+        },
       },
     },
     stack: {
@@ -386,8 +430,8 @@ export const translations = {
     },
     hero: {
       tagline: 'Full Stack Developer · Applied AI & automation',
-      titleLine1: 'I turn manual processes',
-      titleHighlight: 'into digital efficiency.',
+      titleLine1: 'From manual workflows',
+      titleHighlight: 'to results in days.',
       subtitle:
         'Maximizing business profitability through AI, automation, and agile development. Saving work hours to scale profits.',
       cta: 'See impact in numbers',
@@ -425,6 +469,16 @@ export const translations = {
             'Before: 15–30 min per employee. Now: 5 min for the whole company.',
           staticValue: '5 min',
         },
+        moodle: {
+          label: 'LM Content Generator',
+          beforeLabel: 'Before',
+          afterLabel: 'Now',
+          before: '2 weeks of manual production',
+          after: '2 days with external tool',
+          description:
+            'Automated Moodle content creation. From two weeks of work to two days, with the same quality standard.',
+          staticValue: '2 days',
+        },
       },
     },
     methodology: {
@@ -459,6 +513,12 @@ export const translations = {
       description:
         'A selection of initiatives built in real environments. All in production or validated internally.',
       items: {
+        moodle: {
+          title: 'LM Content Generator',
+          description:
+            'External tool that automates creation and structuring of Moodle content. A process that previously required two weeks of manual work is now completed in two days, while keeping quality control and team review.',
+          badge: 'Latest project',
+        },
         signatures: {
           title: 'Centralized Email Signature System',
           description:
@@ -521,6 +581,12 @@ export const translations = {
           title: 'Dynamic landing generator',
           description:
             'Internal server tool to create client landings in minutes, centralizing resources and cutting direct development cost.',
+        },
+        moodle: {
+          month: 'Recent',
+          title: 'LM Content Generator',
+          description:
+            'External tool for Moodle content: from 2 weeks of manual production to 2 days per cycle, with controlled review and quality.',
         },
       },
     },

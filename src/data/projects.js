@@ -1,5 +1,12 @@
 export const projects = [
   {
+    id: 'moodle',
+    translationKey: 'moodle',
+    icon: 'GraduationCap',
+    accent: 'cyan',
+    span: 'lg:col-span-3',
+  },
+  {
     id: 'signatures',
     translationKey: 'signatures',
     icon: 'Mail',

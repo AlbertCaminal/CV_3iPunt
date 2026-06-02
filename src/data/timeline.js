@@ -4,4 +4,5 @@ export const timelineEvents = [
   { id: 'healthApp', translationKey: 'healthApp', accent: 'blue' },
   { id: 'wordpressAI', translationKey: 'wordpressAI', accent: 'cyan', milestone: true },
   { id: 'landings', translationKey: 'landings', accent: 'blue' },
+  { id: 'moodle', translationKey: 'moodle', accent: 'cyan', milestone: true },
 ];

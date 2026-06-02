@@ -27,7 +27,7 @@ function StackIcon({ tech }) {
       height="40"
       loading="lazy"
       onError={() => setFailed(true)}
-      className="size-8 transition-transform duration-300 group-hover:scale-110 sm:size-10"
+      className="size-7 transition-transform duration-300 group-hover:scale-110 sm:size-9 lg:size-8"
     />
   );
 }
@@ -59,7 +59,7 @@ export default function Stack() {
         initial="hidden"
         whileInView="visible"
         viewport={viewportOnce}
-        className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-6"
+        className="grid grid-cols-2 gap-2.5 sm:grid-cols-4 sm:gap-3 lg:grid-cols-8 lg:gap-3"
       >
         {stackItems.map((tech) => (
           <motion.li
@@ -67,12 +67,12 @@ export default function Stack() {
             variants={fadeInUp}
             whileHover={{ y: -3 }}
             transition={{ type: 'spring', stiffness: 320, damping: 22 }}
-            className="group relative flex flex-col items-center justify-center gap-2 overflow-hidden rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-4 backdrop-blur-sm transition-[border-color,box-shadow] duration-300 hover:border-accent-500/40 hover:shadow-glow-blue sm:p-5"
+            className="group relative flex min-w-0 flex-col items-center justify-center gap-1.5 overflow-hidden rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-3 backdrop-blur-sm transition-[border-color,box-shadow] duration-300 hover:border-accent-500/40 hover:shadow-glow-blue sm:gap-2 sm:p-4 lg:p-3"
           >
-            <div className="flex size-10 items-center justify-center sm:size-12">
+            <div className="flex size-9 items-center justify-center sm:size-10 lg:size-9">
               <StackIcon tech={tech} />
             </div>
-            <span className="text-center text-xs font-medium text-zinc-300 sm:text-sm">
+            <span className="flex min-h-[2rem] w-full items-center justify-center px-0.5 text-center text-[10px] font-medium leading-snug text-zinc-300 sm:min-h-[2.25rem] sm:text-xs lg:text-[11px]">
               {tech.name}
             </span>
           </motion.li>

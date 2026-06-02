@@ -4,6 +4,7 @@ import {
   Zap,
   HeartPulse,
   WandSparkles,
+  GraduationCap,
   CheckCircle2,
 } from 'lucide-react';
 import BentoCard from '../ui/BentoCard.jsx';
@@ -12,7 +13,7 @@ import { staggerContainer } from '../../lib/motion.js';
 import { projects } from '../../data/projects.js';
 import { useT } from '../../i18n/LanguageContext.jsx';
 
-const iconMap = { Mail, Zap, HeartPulse, WandSparkles };
+const iconMap = { Mail, Zap, HeartPulse, WandSparkles, GraduationCap };
 
 export default function ProjectShowcase() {
   const t = useT();

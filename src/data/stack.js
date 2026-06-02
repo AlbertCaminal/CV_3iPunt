@@ -1,5 +1,6 @@
 export const stackItems = [
   { name: 'WordPress', slug: 'wordpress', color: '21759B' },
+  { name: 'Moodle', slug: 'moodle', color: 'F98012' },
   { name: 'PHP', slug: 'php', color: '777BB4' },
   { name: 'JavaScript', slug: 'javascript', color: 'F7DF1E' },
   { name: 'React', slug: 'react', color: '61DAFB' },

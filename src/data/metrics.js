@@ -23,4 +23,11 @@ export const metrics = [
     accent: 'blue',
     span: 'lg:col-span-2',
   },
+  {
+    id: 'moodle',
+    translationKey: 'moodle',
+    isStatic: true,
+    accent: 'cyan',
+    span: 'lg:col-span-4',
+  },
 ];
