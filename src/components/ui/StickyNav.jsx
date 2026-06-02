@@ -68,12 +68,9 @@ export default function StickyNav() {
             <button
               type="button"
               onClick={scrollTop}
-              className="flex items-center gap-2 rounded-full px-2 py-1 text-sm font-semibold text-zinc-100 transition-colors hover:text-accent-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
+              className="rounded-full px-2 py-1 text-sm font-semibold text-zinc-100 transition-colors hover:text-accent-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
             >
-              <span className="inline-flex size-6 items-center justify-center rounded-md bg-gradient-to-br from-accent-500/30 to-glow/30 text-[10px] font-bold text-accent-100">
-                A
-              </span>
-              <span className="hidden sm:inline">{t.nav.brand}</span>
+              {t.nav.brand}
             </button>
 
             <ul className="hidden items-center gap-1 lg:flex">
