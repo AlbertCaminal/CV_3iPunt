@@ -15,7 +15,7 @@ export const translations = {
       titleLine1: 'Transformo procesos manuales',
       titleHighlight: 'en eficiencia digital.',
       subtitle:
-        'Maximizando la rentabilidad de 3iPunt mediante IA, automatización y desarrollo ágil. Ahorrando horas de trabajo para escalar los beneficios.',
+        'Maximizando la rentabilidad de las empresas mediante IA, automatización y desarrollo ágil. Ahorrando horas de trabajo para escalar los beneficios.',
       cta: 'Ver impacto en números',
     },
     impact: {
@@ -38,7 +38,7 @@ export const translations = {
           before: '6 meses sin solución',
           after: '1 semana, con tutorial',
           description:
-            'Pongo en producción en días lo que llevaba meses pendiente. Ejemplo concreto: el sistema centralizado de firmas con tracking en Google Analytics, presentado al Grupo 480.',
+            'Pongo en producción en días lo que llevaba meses pendiente. Ejemplo concreto: el sistema centralizado de firmas con tracking en Google Analytics, validado e implantado en entorno real de producción.',
           staticValue: '1 semana',
         },
         sig: {
@@ -83,13 +83,13 @@ export const translations = {
       titleStart: 'Proyectos reales,',
       titleHighlight: 'impacto reciente.',
       description:
-        'Una selección de iniciativas desarrolladas durante las prácticas. Todas en producción o validadas internamente.',
+        'Una selección de iniciativas desarrolladas en entornos reales. Todas en producción o validadas internamente.',
       items: {
         signatures: {
           title: 'Sistema Centralizado de Firmas',
           description:
-            'Centralicé el cambio de firma del correo de toda la empresa. Antes cada empleado lo hacía manualmente (15–30 min cada uno, y muchos se equivocaban). Ahora un solo script actualiza a toda la plantilla en 5 minutos. Añadí tracking de clics en cada imagen y URL con Google Analytics — requisito que llevaba 6 meses pendiente, resuelto e implantado en 1 semana, con tutorial incluido. El Grupo 480 pidió una presentación interna para replicarlo.',
-          badge: 'Presentado al Grupo 480',
+            'Centralicé el cambio de firma del correo de toda la empresa. Antes cada empleado lo hacía manualmente (15–30 min cada uno, y muchos se equivocaban). Ahora un solo script actualiza a toda la plantilla en 5 minutos. Añadí tracking de clics en cada imagen y URL con Google Analytics — requisito que llevaba 6 meses pendiente, resuelto e implantado en 1 semana, con tutorial incluido. El éxito del sistema propició que la dirección del grupo empresarial solicitara una presentación interna para replicar el modelo en otros departamentos.',
+          badge: 'Validado en producción',
         },
         wordpressAI: {
           title: 'Maquetación WordPress con IA',
@@ -116,19 +116,19 @@ export const translations = {
       titleStart: '6 meses,',
       titleHighlight: 'curva de impacto.',
       description:
-        'Cómo se ha desplegado la propuesta de valor desde el primer día de prácticas.',
+        'Cronología de impacto: 6 meses de resultados reales en mi última etapa.',
       events: {
         onboarding: {
           month: 'Mes 1–2',
           title: 'Onboarding técnico',
           description:
-            'Inmersión en el stack interno (WordPress, scripts del servidor, flujos del Grupo 480) y primer mapeo de los procesos manuales más costosos.',
+            'Inmersión en el stack interno (WordPress, scripts del servidor) y mapeo de los procesos manuales más costosos de la empresa.',
         },
         signatures: {
           month: 'Mes 3',
           title: 'Sistema de firmas',
           description:
-            'Resolución en 1 semana de un requisito que llevaba 6 meses pendiente. Validado por Grupo 480 e integrado con Google Analytics.',
+            'Resolución en 1 semana de un requisito que llevaba 6 meses pendiente. Validado e integrado con éxito a nivel corporativo, con Google Analytics.',
         },
         healthApp: {
           month: 'Mes 4',
@@ -161,22 +161,23 @@ export const translations = {
       eyebrow: 'Propuesta de Valor',
       titleStart: '¿Por qué',
       titleHighlight: 'invertir en mi perfil?',
-      body: 'Mi objetivo desde el primer día ha sido demostrar que contratarme tiene un retorno medible. Cada formación que me habéis dado se ha traducido en horas ahorradas, costes evitados y validaciones externas como la del Grupo 480. Quiero seguir aquí escalando lo que ya he empezado: detectar procesos ineficientes y resolverlos con tecnología e IA, sin multiplicar los costes operativos.',
+      body: 'Mi objetivo desde el primer día es demostrar que contratarme tiene un retorno medible. Mi experiencia en entornos reales demuestra que traduzco el desarrollo y la IA en horas ahorradas, costes evitados y eficiencia operativa. Busco un nuevo reto profesional donde seguir detectando procesos ineficientes y resolverlos con tecnología, escalando el rendimiento del equipo sin multiplicar los costes.',
       chips: [
         { label: 'Velocidad', value: 'Días, no meses' },
         { label: 'Coste operativo', value: 'No escala' },
-        { label: 'Validación', value: 'Grupo 480' },
+        { label: 'Impacto', value: 'Corporativo' },
       ],
       contactTitle: 'Hablemos',
       contactSubtitle:
-        '¿Quieres que sigamos construyendo juntos? Esta es la forma más rápida.',
+        '¿Buscas un perfil que convierta procesos manuales en resultados medibles? Esta es la forma más rápida de contactar.',
       ctaEmail: 'Enviar email',
       ctaLinkedin: 'Conectar en LinkedIn',
       ctaGithub: 'Ver GitHub',
       signedAs: 'Firmado',
-      role: 'Desarrollador Full Stack · IA aplicada y automatización · 3iPunt',
+      role: 'Desarrollador Full Stack · IA aplicada y automatización',
       backTop: 'Volver arriba',
-      footer: 'Informe de Impacto preparado para 3iPunt · Grupo 480',
+      footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
+      mailSubject: 'Hablemos · Portfolio de impacto',
     },
     a11y: {
       languageToggle: 'Cambiar idioma',
@@ -201,7 +202,7 @@ export const translations = {
       titleLine1: 'Transformo processos manuals',
       titleHighlight: "en eficiència digital.",
       subtitle:
-        "Maximitzant la rendibilitat de 3iPunt mitjançant IA, automatització i desenvolupament àgil. Estalviant hores de treball per escalar els beneficis.",
+        "Maximitzant la rendibilitat de les empreses mitjançant IA, automatització i desenvolupament àgil. Estalviant hores de treball per escalar els beneficis.",
       cta: 'Veure impacte en números',
     },
     impact: {
@@ -224,7 +225,7 @@ export const translations = {
           before: '6 mesos sense solució',
           after: '1 setmana, amb tutorial',
           description:
-            "Poso en producció en dies el que portava mesos pendent. Exemple concret: el sistema centralitzat de signatures amb tracking a Google Analytics, presentat al Grup 480.",
+            "Poso en producció en dies el que portava mesos pendent. Exemple concret: el sistema centralitzat de signatures amb tracking a Google Analytics, validat i implantat en entorn real de producció.",
           staticValue: '1 setmana',
         },
         sig: {
@@ -269,13 +270,13 @@ export const translations = {
       titleStart: 'Projectes reals,',
       titleHighlight: 'impacte recent.',
       description:
-        "Una selecció d'iniciatives desenvolupades durant les pràctiques. Totes en producció o validades internament.",
+        "Una selecció d'iniciatives desenvolupades en entorns reals. Totes en producció o validades internament.",
       items: {
         signatures: {
           title: 'Sistema Centralitzat de Signatures',
           description:
-            "Vaig centralitzar el canvi de signatura del correu de tota l'empresa. Abans cada empleat ho feia manualment (15–30 min cadascú, i molts s'equivocaven). Ara un sol script actualitza tota la plantilla en 5 minuts. Hi vaig afegir tracking de clics a cada imatge i URL amb Google Analytics — requisit que portava 6 mesos pendent, resolt i implantat en 1 setmana, amb tutorial inclòs. El Grup 480 va demanar una presentació interna per replicar-ho.",
-          badge: 'Presentat al Grup 480',
+            "Vaig centralitzar el canvi de signatura del correu de tota l'empresa. Abans cada empleat ho feia manualment (15–30 min cadascú, i molts s'equivocaven). Ara un sol script actualitza tota la plantilla en 5 minuts. Hi vaig afegir tracking de clics a cada imatge i URL amb Google Analytics — requisit que portava 6 mesos pendent, resolt i implantat en 1 setmana, amb tutorial inclòs. L'èxit del sistema va propiciar que la direcció del grup empresarial en sol·licités una presentació interna per replicar el model a altres departaments.",
+          badge: 'Validat en producció',
         },
         wordpressAI: {
           title: 'Maquetació WordPress amb IA',
@@ -302,19 +303,19 @@ export const translations = {
       titleStart: '6 mesos,',
       titleHighlight: "corba d'impacte.",
       description:
-        'Com s\'ha desplegat la proposta de valor des del primer dia de pràctiques.',
+        "Cronologia d'impacte: 6 mesos de resultats reals a la meva última etapa.",
       events: {
         onboarding: {
           month: 'Mes 1–2',
           title: 'Onboarding tècnic',
           description:
-            "Immersió en l'stack intern (WordPress, scripts del servidor, fluxos del Grup 480) i primer mapatge dels processos manuals més costosos.",
+            "Immersió en l'stack intern (WordPress, scripts del servidor) i mapatge dels processos manuals més costosos de l'empresa.",
         },
         signatures: {
           month: 'Mes 3',
           title: 'Sistema de signatures',
           description:
-            "Resolució en 1 setmana d'un requisit que portava 6 mesos pendent. Validat pel Grup 480 i integrat amb Google Analytics.",
+            "Resolució en 1 setmana d'un requisit que portava 6 mesos pendent. Validat i integrat amb èxit a nivell corporatiu, amb Google Analytics.",
         },
         healthApp: {
           month: 'Mes 4',
@@ -347,22 +348,23 @@ export const translations = {
       eyebrow: 'Proposta de Valor',
       titleStart: 'Per què',
       titleHighlight: 'invertir en el meu perfil?',
-      body: "El meu objectiu des del primer dia ha estat demostrar que contractar-me té un retorn mesurable. Cada formació que m'heu donat s'ha traduït en hores estalviades, costos evitats i validacions externes com la del Grup 480. Vull continuar aquí escalant el que ja he començat: detectar processos ineficients i resoldre'ls amb tecnologia i IA, sense multiplicar els costos operatius.",
+      body: "El meu objectiu des del primer dia és demostrar que contractar-me té un retorn mesurable. La meva experiència en entorns reals demostra que tradueixo el desenvolupament i la IA en hores estalviades, costos evitats i eficiència operativa. Busco un nou repte professional on continuar detectant processos ineficients i resoldre'ls amb tecnologia, escalant el rendiment de l'equip sense multiplicar els costos.",
       chips: [
         { label: 'Velocitat', value: 'Dies, no mesos' },
         { label: 'Cost operatiu', value: 'No escala' },
-        { label: 'Validació', value: 'Grup 480' },
+        { label: 'Impacte', value: 'Corporatiu' },
       ],
       contactTitle: 'Parlem',
       contactSubtitle:
-        "Vols que continuem construint junts? Aquesta és la manera més ràpida.",
+        'Busques un perfil que converteixi processos manuals en resultats mesurables? Aquesta és la manera més ràpida de contactar.',
       ctaEmail: 'Enviar email',
       ctaLinkedin: 'Connectar a LinkedIn',
       ctaGithub: 'Veure GitHub',
       signedAs: 'Signat',
-      role: 'Desenvolupador Full Stack · IA aplicada i automatització · 3iPunt',
+      role: 'Desenvolupador Full Stack · IA aplicada i automatització',
       backTop: 'Tornar amunt',
-      footer: "Informe d'Impacte preparat per a 3iPunt · Grup 480",
+      footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
+      mailSubject: 'Parlem · Portfolio d\'impacte',
     },
     a11y: {
       languageToggle: 'Canviar idioma',
@@ -371,4 +373,197 @@ export const translations = {
       languageChanged: 'Idioma canviat a Català',
     },
   },
+  en: {
+    lang: { code: 'en', label: 'EN' },
+    nav: {
+      brand: 'Albert Caminal',
+      impact: 'Impact',
+      methodology: 'Methodology',
+      projects: 'Projects',
+      timeline: 'Timeline',
+      stack: 'Stack',
+      contact: 'Contact',
+    },
+    hero: {
+      tagline: 'Full Stack Developer · Applied AI & automation',
+      titleLine1: 'I turn manual processes',
+      titleHighlight: 'into digital efficiency.',
+      subtitle:
+        'Maximizing business profitability through AI, automation, and agile development. Saving work hours to scale profits.',
+      cta: 'See impact in numbers',
+    },
+    impact: {
+      eyebrow: 'Impact Dashboard',
+      titleStart: 'Results that are',
+      titleHighlight: 'measured in hours',
+      titleEnd: 'and euros.',
+      description:
+        'Each metric represents time recovered for the team and real capacity to take on more clients without scaling costs.',
+      metrics: {
+        wp: {
+          label: 'WordPress efficiency',
+          description:
+            'Cut layout time from 2 days to 2 hours with AI-optimized workflows.',
+        },
+        mgmt: {
+          label: 'Delivery time',
+          beforeLabel: 'Pending',
+          afterLabel: 'Delivered in',
+          before: '6 months unresolved',
+          after: '1 week, with tutorial',
+          description:
+            'I ship in days what had been pending for months. Concrete example: centralized email signature system with Google Analytics click tracking, validated and deployed in a real production environment.',
+          staticValue: '1 week',
+        },
+        sig: {
+          label: 'Signature rollout',
+          beforeLabel: 'Before',
+          afterLabel: 'Now',
+          before: '15–30 min per employee',
+          after: '5 min for the whole company',
+          description:
+            'Before: 15–30 min per employee. Now: 5 min for the whole company.',
+          staticValue: '5 min',
+        },
+      },
+    },
+    methodology: {
+      eyebrow: 'Methodology',
+      titleStart: 'A',
+      titleHighlight: 'repeatable method,',
+      titleEnd: 'not luck.',
+      description:
+        'Every solution I deliver follows the same process. That is why I can apply it to new problems without friction.',
+      steps: {
+        detect: {
+          title: 'Detect',
+          description:
+            'I identify repetitive manual processes where hours (or weeks) are lost every month.',
+        },
+        automate: {
+          title: 'Automate',
+          description:
+            'I design the solution (script, AI, integration) with minimal maintenance overhead and without tying the team to a single person.',
+        },
+        scale: {
+          title: 'Scale',
+          description:
+            'I document, centralize, and leave the system ready for the whole company to use without friction.',
+        },
+      },
+    },
+    projects: {
+      eyebrow: 'Showcase',
+      titleStart: 'Real projects,',
+      titleHighlight: 'recent impact.',
+      description:
+        'A selection of initiatives built in real environments. All in production or validated internally.',
+      items: {
+        signatures: {
+          title: 'Centralized Email Signature System',
+          description:
+            'I centralized company-wide email signature updates. Before, each employee did it manually (15–30 min each, and many made mistakes). Now a single script updates the entire workforce in 5 minutes. I added click tracking on every image and URL with Google Analytics — a requirement pending for 6 months, solved and deployed in 1 week, tutorial included. The system’s success led corporate leadership to request an internal presentation to replicate the model across other departments.',
+          badge: 'Production validated',
+        },
+        wordpressAI: {
+          title: 'AI-Powered WordPress Layout',
+          description:
+            'With team training and AI integrated into my workflow, I went from 2 days to 2 hours per layout. +800% efficiency on one of the company’s highest-volume processes.',
+          badge: '+800% efficiency',
+        },
+        landings: {
+          title: 'Dynamic Landing Page Generator',
+          description:
+            'Internal server tool to create client landings without repeating setup each time. Live within half a day, saving 30–60 min per new landing and centralizing resources.',
+          badge: 'Half-day build',
+        },
+        healthApp: {
+          title: 'Corporate Health App',
+          description:
+            'Gamified social app to encourage physical activity as a path to higher performance and lower absenteeism. Built at zero cost. Production-ready, pending minor polish before deployment.',
+          badge: 'Zero cost',
+        },
+      },
+    },
+    timeline: {
+      eyebrow: 'Timeline',
+      titleStart: '6 months,',
+      titleHighlight: 'impact curve.',
+      description:
+        'Impact timeline: 6 months of real results in my latest role.',
+      events: {
+        onboarding: {
+          month: 'Month 1–2',
+          title: 'Technical onboarding',
+          description:
+            'Immersion in the internal stack (WordPress, server scripts) and mapping of the company’s costliest manual processes.',
+        },
+        signatures: {
+          month: 'Month 3',
+          title: 'Signature system',
+          description:
+            '1-week resolution of a requirement that had been pending for 6 months. Successfully validated and integrated at corporate level, with Google Analytics.',
+        },
+        healthApp: {
+          month: 'Month 4',
+          title: 'Corporate health app',
+          description:
+            'Gamified social app at zero cost. Better physical health = higher performance and lower absenteeism.',
+        },
+        wordpressAI: {
+          month: 'Month 5',
+          title: 'AI-powered WordPress layout',
+          description:
+            'AI-optimized workflows: from 2 days to 2 hours per layout (+800% efficiency).',
+        },
+        landings: {
+          month: 'Month 6',
+          title: 'Dynamic landing generator',
+          description:
+            'Internal server tool to create client landings in minutes, centralizing resources and cutting direct development cost.',
+        },
+      },
+    },
+    stack: {
+      eyebrow: 'Stack',
+      titleStart: 'Technical versatility,',
+      titleHighlight: 'results-focused.',
+      description:
+        'Tools are the means. The goal is always the same: fewer manual hours, more capacity.',
+    },
+    value: {
+      eyebrow: 'Value Proposition',
+      titleStart: 'Why',
+      titleHighlight: 'invest in my profile?',
+      body: 'My goal from day one has been to prove that hiring me delivers measurable ROI. My experience in real environments shows I translate development and AI into hours saved, costs avoided, and operational efficiency. I am looking for a new professional challenge where I can keep spotting inefficient processes and solving them with technology, scaling team performance without multiplying costs.',
+      chips: [
+        { label: 'Speed', value: 'Days, not months' },
+        { label: 'Operating cost', value: 'Does not scale' },
+        { label: 'Impact', value: 'Corporate' },
+      ],
+      contactTitle: 'Let’s talk',
+      contactSubtitle:
+        'Looking for someone who turns manual processes into measurable results? This is the fastest way to reach me.',
+      ctaEmail: 'Send email',
+      ctaLinkedin: 'Connect on LinkedIn',
+      ctaGithub: 'View GitHub',
+      signedAs: 'Signed',
+      role: 'Full Stack Developer · Applied AI & automation',
+      backTop: 'Back to top',
+      footer: 'Albert Caminal · Full Stack Developer & AI Automation Specialist',
+      mailSubject: 'Let’s talk · Impact portfolio',
+    },
+    a11y: {
+      languageToggle: 'Change language',
+      openMenu: 'Open menu',
+      closeMenu: 'Close menu',
+      languageChanged: 'Language changed to English',
+    },
+  },
 };
+
+export const LANG_OPTIONS = [
+  { code: 'es', label: 'ES' },
+  { code: 'ca', label: 'CA' },
+  { code: 'en', label: 'EN' },
+];

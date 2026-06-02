@@ -1,15 +1,14 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { translations } from './translations.js';
+import { translations, LANG_OPTIONS } from './translations.js';
 
 const STORAGE_KEY = 'cv3ipunt:lang';
 const DEFAULT_LANG = 'es';
-const SUPPORTED = ['es', 'ca'];
+const SUPPORTED = LANG_OPTIONS.map((o) => o.code);
 
 const LanguageContext = createContext({
   lang: DEFAULT_LANG,
   t: translations[DEFAULT_LANG],
   setLang: () => {},
-  toggleLang: () => {},
 });
 
 function detectInitialLang() {
@@ -22,6 +21,7 @@ function detectInitialLang() {
   }
   const nav = window.navigator?.language?.toLowerCase() ?? '';
   if (nav.startsWith('ca')) return 'ca';
+  if (nav.startsWith('en')) return 'en';
   return DEFAULT_LANG;
 }
 
@@ -43,13 +43,9 @@ export function LanguageProvider({ children }) {
     if (SUPPORTED.includes(next)) setLangState(next);
   }, []);
 
-  const toggleLang = useCallback(() => {
-    setLangState((prev) => (prev === 'es' ? 'ca' : 'es'));
-  }, []);
-
   const value = useMemo(
-    () => ({ lang, t: translations[lang], setLang, toggleLang }),
-    [lang, setLang, toggleLang]
+    () => ({ lang, t: translations[lang], setLang }),
+    [lang, setLang]
   );
 
   return (

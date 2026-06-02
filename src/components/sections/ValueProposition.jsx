@@ -64,7 +64,7 @@ export default function ValueProposition() {
 
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href={`mailto:${contact.email}?subject=${encodeURIComponent('Hablemos · Informe de Impacto')}`}
+              href={`mailto:${contact.email}?subject=${encodeURIComponent(t.value.mailSubject)}`}
               className="group inline-flex items-center gap-2 rounded-full border border-accent-500/50 bg-accent-500/15 px-5 py-2.5 text-sm font-semibold text-zinc-50 transition-all duration-300 hover:border-accent-400 hover:bg-accent-500/25 hover:shadow-glow-blue focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
             >
               <Mail className="size-4" aria-hidden="true" />
