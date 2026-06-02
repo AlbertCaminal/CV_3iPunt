@@ -15,7 +15,7 @@ export const translations = {
       titleLine1: 'De procesos manuales',
       titleHighlight: 'a resultados en días.',
       subtitle:
-        'Maximizando la rentabilidad de las empresas mediante IA, automatización y desarrollo ágil. Ahorrando horas de trabajo para escalar los beneficios.',
+        'Firmas en 5 min, WordPress mucho más rápido y proyectos de meses en una semana. Todo en producción — míralo en números abajo.',
       cta: 'Contactar',
     },
     impact: {
@@ -135,37 +135,37 @@ export const translations = {
         'Cronología de impacto: 7 meses de resultados reales en mi última etapa.',
       events: {
         onboarding: {
-          month: 'Mes 1–2',
+          month: 'Mes 1',
           title: 'Onboarding técnico',
           description:
             'Inmersión en el stack interno (WordPress, scripts del servidor) y mapeo de los procesos manuales más costosos de la empresa.',
         },
         signatures: {
-          month: 'Mes 3',
+          month: 'Mes 2',
           title: 'Sistema de firmas',
           description:
             'Resolución en 1 semana de un requisito que llevaba 6 meses pendiente. Validado e integrado con éxito a nivel corporativo, con Google Analytics.',
         },
         healthApp: {
-          month: 'Mes 4',
+          month: 'Mes 3',
           title: 'Health App corporativa',
           description:
             'App social gamificada a coste cero. Mayor salud física = mayor rendimiento y menor absentismo.',
         },
         wordpressAI: {
-          month: 'Mes 5',
+          month: 'Mes 4',
           title: 'Maquetación WordPress con IA',
           description:
             'Flujos optimizados con IA: de 2 días a 2 horas por maquetación (+800% eficiencia).',
         },
         landings: {
-          month: 'Mes 6',
+          month: 'Mes 5',
           title: 'Generador dinámico de landings',
           description:
             'Herramienta interna en el servidor para crear landings de clientes en minutos, centralizando recursos y ahorrando coste directo de desarrollo.',
         },
         moodle: {
-          month: 'Mes 7',
+          month: 'Mes 6',
           title: 'Generador de contenidos LM',
           description:
             'Herramienta externa para contenidos en Moodle: de 2 semanas de producción manual a 2 días por ciclo, con revisión y calidad controladas.',
@@ -183,7 +183,7 @@ export const translations = {
       eyebrow: 'Propuesta de Valor',
       titleStart: '¿Por qué',
       titleHighlight: 'invertir en mi perfil?',
-      body: 'Mi objetivo desde el primer día es demostrar que contratarme tiene un retorno medible. Mi experiencia en entornos reales demuestra que traduzco el desarrollo y la IA en horas ahorradas, costes evitados y eficiencia operativa. Busco un nuevo reto profesional donde seguir detectando procesos ineficientes y resolverlos con tecnología, escalando el rendimiento del equipo sin multiplicar los costes.',
+      body: 'Lo que más repito en el día a día: ver dónde se pierden horas (firmas, landings, contenidos) y dejarlo resuelto en producción, no en un PowerPoint. Busco un nuevo reto con un equipo que quiera seguir en esa línea: rápido, contrastable en números y mantenible sin depender de una sola persona.',
       chips: [
         { label: 'Velocidad', value: 'Días, no meses' },
         { label: 'Coste operativo', value: 'No escala' },
@@ -210,16 +210,16 @@ export const translations = {
       sections: {
         impact: 'Impacto medible',
         projects: 'Proyectos clave',
-        timeline: 'Trayectoria (7 meses)',
+        timeline: 'Trayectoria (6 meses)',
         method: 'Metodología',
         stack: 'Stack principal',
         contact: 'Contacto',
       },
       metrics: [
-        'WordPress: +800% (2 días → 2 h por maquetación)',
-        'Entrega: requisito 6 meses pendiente → 1 semana en producción',
-        'Firmas email: 15–30 min/empleado → 5 min toda la empresa',
-        'Moodle LM: 2 semanas de producción → 2 días',
+        'WordPress: +800% (2 dias a 2 h por maquetacion)',
+        'Entrega: 6 meses pendiente -> 1 semana en produccion',
+        'Firmas email: 15-30 min/empleado -> 5 min toda la empresa',
+        'Moodle LM: 2 semanas de produccion -> 2 dias',
       ],
       projects: [
         'Generador de contenidos LM (Moodle)',
@@ -253,7 +253,7 @@ export const translations = {
       titleLine1: 'De processos manuals',
       titleHighlight: 'a resultats en dies.',
       subtitle:
-        "Maximitzant la rendibilitat de les empreses mitjançant IA, automatització i desenvolupament àgil. Estalviant hores de treball per escalar els beneficis.",
+        "Signatures en 5 min, WordPress molt més ràpid i projectes de mesos en una setmana. Tot en producció — mira-ho en xifres a sota.",
       cta: 'Contactar',
     },
     impact: {
@@ -373,37 +373,37 @@ export const translations = {
         "Cronologia d'impacte: 7 mesos de resultats reals a la meva última etapa.",
       events: {
         onboarding: {
-          month: 'Mes 1–2',
+          month: 'Mes 1',
           title: 'Onboarding tècnic',
           description:
             "Immersió en l'stack intern (WordPress, scripts del servidor) i mapatge dels processos manuals més costosos de l'empresa.",
         },
         signatures: {
-          month: 'Mes 3',
+          month: 'Mes 2',
           title: 'Sistema de signatures',
           description:
             "Resolució en 1 setmana d'un requisit que portava 6 mesos pendent. Validat i integrat amb èxit a nivell corporatiu, amb Google Analytics.",
         },
         healthApp: {
-          month: 'Mes 4',
+          month: 'Mes 3',
           title: 'Health App corporativa',
           description:
             'App social gamificada a cost zero. Major salut física = major rendiment i menor absentisme.',
         },
         wordpressAI: {
-          month: 'Mes 5',
+          month: 'Mes 4',
           title: 'Maquetació WordPress amb IA',
           description:
             'Fluxos optimitzats amb IA: de 2 dies a 2 hores per maquetació (+800% eficiència).',
         },
         landings: {
-          month: 'Mes 6',
+          month: 'Mes 5',
           title: 'Generador dinàmic de landings',
           description:
             "Eina interna al servidor per crear landings de clients en minuts, centralitzant recursos i estalviant cost directe de desenvolupament.",
         },
         moodle: {
-          month: 'Mes 7',
+          month: 'Mes 6',
           title: 'Generador de continguts LM',
           description:
             "Eina externa per a continguts a Moodle: de 2 setmanes de producció manual a 2 dies per cicle, amb revisió i qualitat controlades.",
@@ -421,7 +421,7 @@ export const translations = {
       eyebrow: 'Proposta de Valor',
       titleStart: 'Per què',
       titleHighlight: 'invertir en el meu perfil?',
-      body: "El meu objectiu des del primer dia és demostrar que contractar-me té un retorn mesurable. La meva experiència en entorns reals demostra que tradueixo el desenvolupament i la IA en hores estalviades, costos evitats i eficiència operativa. Busco un nou repte professional on continuar detectant processos ineficients i resoldre'ls amb tecnologia, escalant el rendiment de l'equip sense multiplicar els costos.",
+      body: "El que més repeteixo: detectar on es perden hores (signatures, landings, continguts) i deixar-ho en producció, no en un PowerPoint. Busco un nou repte amb un equip que vulgui seguir en aquesta línia: ràpid, contrastable en xifres i mantenible sense dependre d'una sola persona.",
       chips: [
         { label: 'Velocitat', value: 'Dies, no mesos' },
         { label: 'Cost operatiu', value: 'No escala' },
@@ -448,16 +448,16 @@ export const translations = {
       sections: {
         impact: 'Impacte mesurable',
         projects: 'Projectes clau',
-        timeline: 'Trajectòria (7 mesos)',
+        timeline: 'Trajectòria (6 mesos)',
         method: 'Metodologia',
         stack: 'Stack principal',
         contact: 'Contacte',
       },
       metrics: [
-        'WordPress: +800% (2 dies → 2 h per maquetació)',
-        'Lliurament: requisit 6 mesos pendent → 1 setmana en producció',
-        "Signatures email: 15–30 min/empleat → 5 min tota l'empresa",
-        'Moodle LM: 2 setmanes de producció → 2 dies',
+        'WordPress: +800% (2 dies a 2 h per maquetacio)',
+        'Lliurament: 6 mesos pendent -> 1 setmana en produccio',
+        "Signatures email: 15-30 min/empleat -> 5 min tota l'empresa",
+        'Moodle LM: 2 setmanes de produccio -> 2 dies',
       ],
       projects: [
         'Generador de continguts LM (Moodle)',
@@ -491,7 +491,7 @@ export const translations = {
       titleLine1: 'From manual workflows',
       titleHighlight: 'to results in days.',
       subtitle:
-        'Maximizing business profitability through AI, automation, and agile development. Saving work hours to scale profits.',
+        'Signatures in 5 min, much faster WordPress, and month-long projects done in a week. All in production — see the numbers below.',
       cta: 'Get in touch',
     },
     impact: {
@@ -611,37 +611,37 @@ export const translations = {
         'Impact timeline: 7 months of real results in my latest role.',
       events: {
         onboarding: {
-          month: 'Month 1–2',
+          month: 'Month 1',
           title: 'Technical onboarding',
           description:
             'Immersion in the internal stack (WordPress, server scripts) and mapping of the company’s costliest manual processes.',
         },
         signatures: {
-          month: 'Month 3',
+          month: 'Month 2',
           title: 'Signature system',
           description:
             '1-week resolution of a requirement that had been pending for 6 months. Successfully validated and integrated at corporate level, with Google Analytics.',
         },
         healthApp: {
-          month: 'Month 4',
+          month: 'Month 3',
           title: 'Corporate health app',
           description:
             'Gamified social app at zero cost. Better physical health = higher performance and lower absenteeism.',
         },
         wordpressAI: {
-          month: 'Month 5',
+          month: 'Month 4',
           title: 'AI-powered WordPress layout',
           description:
             'AI-optimized workflows: from 2 days to 2 hours per layout (+800% efficiency).',
         },
         landings: {
-          month: 'Month 6',
+          month: 'Month 5',
           title: 'Dynamic landing generator',
           description:
             'Internal server tool to create client landings in minutes, centralizing resources and cutting direct development cost.',
         },
         moodle: {
-          month: 'Month 7',
+          month: 'Month 6',
           title: 'LM Content Generator',
           description:
             'External tool for Moodle content: from 2 weeks of manual production to 2 days per cycle, with controlled review and quality.',
@@ -659,7 +659,7 @@ export const translations = {
       eyebrow: 'Value Proposition',
       titleStart: 'Why',
       titleHighlight: 'invest in my profile?',
-      body: 'My goal from day one has been to prove that hiring me delivers measurable ROI. My experience in real environments shows I translate development and AI into hours saved, costs avoided, and operational efficiency. I am looking for a new professional challenge where I can keep spotting inefficient processes and solving them with technology, scaling team performance without multiplying costs.',
+      body: 'What I do most: find where hours are wasted (signatures, landings, content) and ship fixes to production, not slide decks. I am looking for a team that wants more of that — fast, backed by numbers, and maintainable without locking you into one person.',
       chips: [
         { label: 'Speed', value: 'Days, not months' },
         { label: 'Operating cost', value: 'Does not scale' },
@@ -686,16 +686,16 @@ export const translations = {
       sections: {
         impact: 'Measurable impact',
         projects: 'Key projects',
-        timeline: 'Timeline (7 months)',
+        timeline: 'Timeline (6 months)',
         method: 'Methodology',
         stack: 'Core stack',
         contact: 'Contact',
       },
       metrics: [
-        'WordPress: +800% (2 days → 2 h per layout)',
-        'Delivery: 6-month pending requirement → 1 week in production',
-        'Email signatures: 15–30 min/employee → 5 min company-wide',
-        'Moodle LM: 2 weeks production → 2 days',
+        'WordPress: +800% (2 days to 2 h per layout)',
+        'Delivery: 6-month pending -> 1 week in production',
+        'Email signatures: 15-30 min/employee -> 5 min company-wide',
+        'Moodle LM: 2 weeks production -> 2 days',
       ],
       projects: [
         'LM content generator (Moodle)',

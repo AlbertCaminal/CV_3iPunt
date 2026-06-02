@@ -5,8 +5,20 @@ import { fadeInUp, staggerContainer, viewportOnce } from '../../lib/motion.js';
 import { stackItems } from '../../data/stack.js';
 import { useT } from '../../i18n/LanguageContext.jsx';
 
+function stackIconSources(tech) {
+  const sources = [];
+  if (tech.iconSrc) sources.push(tech.iconSrc);
+  sources.push(`https://cdn.simpleicons.org/${tech.slug}/${tech.color}`);
+  sources.push(
+    `https://cdn.jsdelivr.net/npm/simple-icons@11/icons/${tech.slug}.svg`
+  );
+  return [...new Set(sources)];
+}
+
 function StackIcon({ tech }) {
-  const [failed, setFailed] = useState(false);
+  const sources = stackIconSources(tech);
+  const [sourceIndex, setSourceIndex] = useState(0);
+  const failed = sourceIndex >= sources.length;
 
   if (failed) {
     return (
@@ -19,15 +31,22 @@ function StackIcon({ tech }) {
     );
   }
 
+  const handleError = () => {
+    setSourceIndex((index) => index + 1);
+  };
+
   return (
     <img
-      src={`https://cdn.simpleicons.org/${tech.slug}/${tech.color}`}
+      src={sources[sourceIndex]}
       alt=""
       width="40"
       height="40"
       loading="lazy"
-      onError={() => setFailed(true)}
-      className="size-7 transition-transform duration-300 group-hover:scale-110 sm:size-9 lg:size-8"
+      onError={handleError}
+      className={[
+        'size-7 transition-transform duration-300 group-hover:scale-110 sm:size-9 lg:size-8',
+        tech.iconLight ? 'brightness-0 invert' : '',
+      ].join(' ')}
     />
   );
 }

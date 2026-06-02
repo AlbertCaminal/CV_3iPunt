@@ -65,6 +65,18 @@ body {
     background-clip: text;
     color: transparent;
   }
+
+  .aurora-grid {
+    mask-image: radial-gradient(ellipse 95% 55% at 50% 35%, black 15%, transparent 78%);
+    -webkit-mask-image: radial-gradient(ellipse 95% 55% at 50% 35%, black 15%, transparent 78%);
+  }
+
+  @media (min-width: 640px) {
+    .aurora-grid {
+      mask-image: radial-gradient(ellipse 75% 48% at 50% 35%, black 25%, transparent 75%);
+      -webkit-mask-image: radial-gradient(ellipse 75% 48% at 50% 35%, black 25%, transparent 75%);
+    }
+  }
 }
 
 @media print {

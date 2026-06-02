@@ -17,16 +17,17 @@ export default function Hero() {
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className="relative flex min-h-[92vh] flex-col items-center justify-center py-24 text-center"
+      className="relative isolate w-full overflow-hidden"
     >
       <Aurora />
 
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        animate="visible"
-        className="flex flex-col items-center gap-7"
-      >
+      <div className="relative mx-auto flex min-h-[92vh] w-full max-w-6xl flex-col items-center justify-center px-5 py-24 text-center sm:px-8">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+          className="flex flex-col items-center gap-7"
+        >
         <motion.span
           variants={fadeInUp}
           className="inline-flex items-center gap-2 rounded-full border border-accent-500/30 bg-accent-500/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] text-accent-300 sm:text-sm"
@@ -62,7 +63,8 @@ export default function Hero() {
             <span>{t.hero.cta}</span>
           </a>
         </motion.div>
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 }

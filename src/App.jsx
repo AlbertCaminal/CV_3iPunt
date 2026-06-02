@@ -37,12 +37,17 @@ export default function App() {
       <StickyNav />
       <LanguageAnnouncer />
       <main className="relative min-h-screen w-full overflow-x-hidden">
+        <ErrorBoundary label="Hero">
+          <Hero />
+        </ErrorBoundary>
         <div className="mx-auto w-full max-w-6xl px-5 sm:px-8">
-          {sections.map(({ id, Component, label }) => (
-            <ErrorBoundary key={id} label={label}>
-              <Component />
-            </ErrorBoundary>
-          ))}
+          {sections
+            .filter(({ id }) => id !== 'hero')
+            .map(({ id, Component, label }) => (
+              <ErrorBoundary key={id} label={label}>
+                <Component />
+              </ErrorBoundary>
+            ))}
         </div>
       </main>
     </LanguageProvider>

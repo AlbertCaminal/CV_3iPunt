@@ -71,15 +71,11 @@ export default function Aurora({ className = '' }) {
       />
 
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 aurora-grid"
         style={{
           backgroundImage:
             'linear-gradient(rgba(59,130,246,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.04) 1px, transparent 1px)',
           backgroundSize: '64px 64px',
-          maskImage:
-            'radial-gradient(ellipse 60% 45% at 50% 35%, black 30%, transparent 75%)',
-          WebkitMaskImage:
-            'radial-gradient(ellipse 60% 45% at 50% 35%, black 30%, transparent 75%)',
         }}
       />
     </div>
