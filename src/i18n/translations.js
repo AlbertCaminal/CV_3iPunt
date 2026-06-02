@@ -19,12 +19,12 @@ export const translations = {
       cta: 'Contactar',
     },
     impact: {
-      eyebrow: 'Impact Dashboard',
+      eyebrow: 'Panel de impacto',
       titleStart: 'Resultados que se',
       titleHighlight: 'miden en horas',
       titleEnd: 'y euros.',
       description:
-        'Cada métrica representa tiempo recuperado para el equipo y capacidad real para absorber más clientes sin escalar costes.',
+        'Cada cifra es tiempo que el equipo deja de perder en tareas que antes eran manuales.',
       metrics: {
         wp: {
           label: 'Eficiencia en WordPress',
@@ -89,7 +89,7 @@ export const translations = {
       },
     },
     projects: {
-      eyebrow: 'Showcase',
+      eyebrow: 'Proyectos',
       titleStart: 'Proyectos reales,',
       titleHighlight: 'impacto reciente.',
       description:
@@ -122,17 +122,17 @@ export const translations = {
         healthApp: {
           title: 'Health App Corporativa',
           description:
-            'App social gamificada para incentivar la actividad física del equipo como vía a mayor rendimiento y menor absentismo. Construida a coste cero. Lista para producción, pendiente de afinar detalles antes de desplegar.',
-          badge: 'Coste cero',
+            'App social gamificada para incentivar la actividad física del equipo. Construida a coste cero: MVP funcional, validado internamente y listo para desplegar.',
+          badge: 'MVP listo',
         },
       },
     },
     timeline: {
       eyebrow: 'Trayectoria',
-      titleStart: '7 meses,',
+      titleStart: '6 meses,',
       titleHighlight: 'curva de impacto.',
       description:
-        'Cronología de impacto: 7 meses de resultados reales en mi última etapa.',
+        'Cronología de impacto: 6 meses de resultados reales en mi última etapa.',
       events: {
         onboarding: {
           month: 'Mes 1',
@@ -186,12 +186,12 @@ export const translations = {
       body: 'Lo que más repito en el día a día: ver dónde se pierden horas (firmas, landings, contenidos) y dejarlo resuelto en producción, no en un PowerPoint. Busco un nuevo reto con un equipo que quiera seguir en esa línea: rápido, contrastable en números y mantenible sin depender de una sola persona.',
       chips: [
         { label: 'Velocidad', value: 'Días, no meses' },
-        { label: 'Coste operativo', value: 'No escala' },
-        { label: 'Impacto', value: 'Corporativo' },
+        { label: 'Mantenimiento', value: 'Bajo y documentado' },
+        { label: 'Impacto', value: 'En producción' },
       ],
       contactTitle: 'Hablemos',
       contactSubtitle:
-        '¿Buscas un perfil que convierta procesos manuales en resultados medibles? Esta es la forma más rápida de contactar.',
+        'Si encaja lo que has visto arriba, escríbeme — respondo por email o LinkedIn.',
       ctaEmail: 'Enviar email',
       ctaLinkedin: 'Conectar en LinkedIn',
       ctaGithub: 'Ver GitHub',
@@ -226,7 +226,7 @@ export const translations = {
         'Sistema centralizado de firmas + Google Analytics',
         'Maquetación WordPress con IA',
         'Generador dinámico de landings',
-        'Health App corporativa (MVP, coste cero)',
+        'Health App corporativa (MVP listo)',
       ],
       methodSteps: ['Detectar procesos manuales', 'Automatizar con IA/scripts', 'Escalar y documentar'],
     },
@@ -262,7 +262,7 @@ export const translations = {
       titleHighlight: 'mesuren en hores',
       titleEnd: 'i euros.',
       description:
-        "Cada mètrica representa temps recuperat per a l'equip i capacitat real per absorbir més clients sense escalar costos.",
+        "Cada xifra és temps que l'equip deixa de perdre en tasques que abans eren manuals.",
       metrics: {
         wp: {
           label: 'Eficiència a WordPress',
@@ -327,7 +327,7 @@ export const translations = {
       },
     },
     projects: {
-      eyebrow: 'Showcase',
+      eyebrow: 'Projectes',
       titleStart: 'Projectes reals,',
       titleHighlight: 'impacte recent.',
       description:
@@ -360,17 +360,17 @@ export const translations = {
         healthApp: {
           title: 'Health App Corporativa',
           description:
-            "App social gamificada per incentivar l'activitat física de l'equip com a via a major rendiment i menor absentisme. Construïda a cost zero. Llesta per a producció, pendent d'afinar detalls abans de desplegar.",
-          badge: 'Cost zero',
+            "App social gamificada per incentivar l'activitat física de l'equip. Construïda a cost zero: MVP funcional, validat internament i llest per desplegar.",
+          badge: 'MVP llest',
         },
       },
     },
     timeline: {
       eyebrow: 'Trajectòria',
-      titleStart: '7 mesos,',
+      titleStart: '6 mesos,',
       titleHighlight: "corba d'impacte.",
       description:
-        "Cronologia d'impacte: 7 mesos de resultats reals a la meva última etapa.",
+        "Cronologia d'impacte: 6 mesos de resultats reals a la meva última etapa.",
       events: {
         onboarding: {
           month: 'Mes 1',
@@ -424,12 +424,12 @@ export const translations = {
       body: "El que més repeteixo: detectar on es perden hores (signatures, landings, continguts) i deixar-ho en producció, no en un PowerPoint. Busco un nou repte amb un equip que vulgui seguir en aquesta línia: ràpid, contrastable en xifres i mantenible sense dependre d'una sola persona.",
       chips: [
         { label: 'Velocitat', value: 'Dies, no mesos' },
-        { label: 'Cost operatiu', value: 'No escala' },
-        { label: 'Impacte', value: 'Corporatiu' },
+        { label: 'Manteniment', value: 'Baix i documentat' },
+        { label: 'Impacte', value: 'En producció' },
       ],
       contactTitle: 'Parlem',
       contactSubtitle:
-        'Busques un perfil que converteixi processos manuals en resultats mesurables? Aquesta és la manera més ràpida de contactar.',
+        "Si t'encaixa el que has vist a dalt, escriu-me — responc per email o LinkedIn.",
       ctaEmail: 'Enviar email',
       ctaLinkedin: 'Connectar a LinkedIn',
       ctaGithub: 'Veure GitHub',
@@ -464,7 +464,7 @@ export const translations = {
         'Sistema centralitzat de signatures + Google Analytics',
         'Maquetació WordPress amb IA',
         'Generador dinàmic de landings',
-        'Health App corporativa (MVP, cost zero)',
+        'Health App corporativa (MVP llest)',
       ],
       methodSteps: ['Detectar processos manuals', 'Automatitzar amb IA/scripts', 'Escalar i documentar'],
     },
@@ -500,7 +500,7 @@ export const translations = {
       titleHighlight: 'measured in hours',
       titleEnd: 'and euros.',
       description:
-        'Each metric represents time recovered for the team and real capacity to take on more clients without scaling costs.',
+        'Each figure is time the team stops losing on tasks that used to be manual.',
       metrics: {
         wp: {
           label: 'WordPress efficiency',
@@ -565,7 +565,7 @@ export const translations = {
       },
     },
     projects: {
-      eyebrow: 'Showcase',
+      eyebrow: 'Projects',
       titleStart: 'Real projects,',
       titleHighlight: 'recent impact.',
       description:
@@ -598,17 +598,17 @@ export const translations = {
         healthApp: {
           title: 'Corporate Health App',
           description:
-            'Gamified social app to encourage physical activity as a path to higher performance and lower absenteeism. Built at zero cost. Production-ready, pending minor polish before deployment.',
-          badge: 'Zero cost',
+            'Gamified social app to encourage team physical activity. Built at zero cost: functional MVP, internally validated, and ready to deploy.',
+          badge: 'MVP ready',
         },
       },
     },
     timeline: {
       eyebrow: 'Timeline',
-      titleStart: '7 months,',
+      titleStart: '6 months,',
       titleHighlight: 'impact curve.',
       description:
-        'Impact timeline: 7 months of real results in my latest role.',
+        'Impact timeline: 6 months of real results in my latest role.',
       events: {
         onboarding: {
           month: 'Month 1',
@@ -662,12 +662,12 @@ export const translations = {
       body: 'What I do most: find where hours are wasted (signatures, landings, content) and ship fixes to production, not slide decks. I am looking for a team that wants more of that — fast, backed by numbers, and maintainable without locking you into one person.',
       chips: [
         { label: 'Speed', value: 'Days, not months' },
-        { label: 'Operating cost', value: 'Does not scale' },
-        { label: 'Impact', value: 'Corporate' },
+        { label: 'Maintenance', value: 'Low and documented' },
+        { label: 'Impact', value: 'In production' },
       ],
       contactTitle: 'Let’s talk',
       contactSubtitle:
-        'Looking for someone who turns manual processes into measurable results? This is the fastest way to reach me.',
+        'If what you saw above fits, drop me a line — I reply by email or LinkedIn.',
       ctaEmail: 'Send email',
       ctaLinkedin: 'Connect on LinkedIn',
       ctaGithub: 'View GitHub',
@@ -702,7 +702,7 @@ export const translations = {
         'Centralized signature system + Google Analytics',
         'AI-powered WordPress layout',
         'Dynamic landing generator',
-        'Corporate health app (MVP, zero cost)',
+        'Corporate health app (MVP ready)',
       ],
       methodSteps: ['Detect manual processes', 'Automate with AI/scripts', 'Scale and document'],
     },
