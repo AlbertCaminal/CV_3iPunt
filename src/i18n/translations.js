@@ -165,7 +165,7 @@ export const translations = {
             'Herramienta interna en el servidor para crear landings de clientes en minutos, centralizando recursos y ahorrando coste directo de desarrollo.',
         },
         moodle: {
-          month: 'Reciente',
+          month: 'Mes 7',
           title: 'Generador de contenidos LM',
           description:
             'Herramienta externa para contenidos en Moodle: de 2 semanas de producción manual a 2 días por ciclo, con revisión y calidad controladas.',
@@ -374,7 +374,7 @@ export const translations = {
             "Eina interna al servidor per crear landings de clients en minuts, centralitzant recursos i estalviant cost directe de desenvolupament.",
         },
         moodle: {
-          month: 'Recent',
+          month: 'Mes 7',
           title: 'Generador de continguts LM',
           description:
             "Eina externa per a continguts a Moodle: de 2 setmanes de producció manual a 2 dies per cicle, amb revisió i qualitat controlades.",
@@ -583,7 +583,7 @@ export const translations = {
             'Internal server tool to create client landings in minutes, centralizing resources and cutting direct development cost.',
         },
         moodle: {
-          month: 'Recent',
+          month: 'Month 7',
           title: 'LM Content Generator',
           description:
             'External tool for Moodle content: from 2 weeks of manual production to 2 days per cycle, with controlled review and quality.',

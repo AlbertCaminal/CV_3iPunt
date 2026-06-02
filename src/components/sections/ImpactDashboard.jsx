@@ -19,14 +19,14 @@ function MetricNumber({ metric, translated }) {
         <span className="text-5xl font-extrabold tracking-tight text-zinc-50 sm:text-6xl md:text-7xl">
           {translated.staticValue}
         </span>
-        <div className="flex w-full max-w-md flex-col items-stretch gap-1.5 text-xs sm:text-sm">
-          <span className="rounded-md border border-zinc-700/80 bg-zinc-800/40 px-2.5 py-1.5 font-medium text-zinc-400 line-through decoration-zinc-500/60">
+        <div className="flex w-fit max-w-full flex-col items-stretch gap-1.5 text-xs sm:text-sm">
+          <span className="w-fit max-w-full rounded-md border border-zinc-700/80 bg-zinc-800/40 px-2.5 py-1.5 font-medium text-zinc-400 line-through decoration-zinc-500/60">
             {translated.beforeLabel}: {translated.before}
           </span>
-          <span className="flex justify-center py-0.5" aria-hidden="true">
+          <span className="flex w-fit justify-center self-center py-0.5" aria-hidden="true">
             <ArrowDown className="size-4 text-accent-400" strokeWidth={2.5} />
           </span>
-          <span className="rounded-md border border-accent-500/30 bg-accent-500/10 px-2.5 py-1.5 font-semibold text-accent-200">
+          <span className="w-fit max-w-full rounded-md border border-accent-500/30 bg-accent-500/10 px-2.5 py-1.5 font-semibold text-accent-200">
             {translated.afterLabel}: {translated.after}
           </span>
         </div>
