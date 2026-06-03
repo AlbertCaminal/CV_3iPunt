@@ -94,6 +94,9 @@ export const translations = {
       titleHighlight: 'impacto reciente.',
       description:
         'Una selección de iniciativas desarrolladas en entornos reales. Todas en producción o validadas internamente.',
+      viewScreenshot: 'Ver captura de {title}',
+      viewScreenshotHint: 'Ver captura',
+      closeScreenshot: 'Cerrar captura',
       items: {
         moodle: {
           title: 'Generador de contenidos LM',
@@ -332,6 +335,9 @@ export const translations = {
       titleHighlight: 'impacte recent.',
       description:
         "Una selecció d'iniciatives desenvolupades en entorns reals. Totes en producció o validades internament.",
+      viewScreenshot: 'Veure captura de {title}',
+      viewScreenshotHint: 'Veure captura',
+      closeScreenshot: 'Tancar captura',
       items: {
         moodle: {
           title: 'Generador de continguts LM',
@@ -570,6 +576,9 @@ export const translations = {
       titleHighlight: 'recent impact.',
       description:
         'A selection of initiatives built in real environments. All in production or validated internally.',
+      viewScreenshot: 'View screenshot of {title}',
+      viewScreenshotHint: 'View screenshot',
+      closeScreenshot: 'Close screenshot',
       items: {
         moodle: {
           title: 'LM Content Generator',

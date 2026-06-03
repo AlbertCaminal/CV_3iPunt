@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   Mail,
@@ -6,8 +7,10 @@ import {
   WandSparkles,
   GraduationCap,
   CheckCircle2,
+  Expand,
 } from 'lucide-react';
 import BentoCard from '../ui/BentoCard.jsx';
+import ProjectImageLightbox from '../ui/ProjectImageLightbox.jsx';
 import SectionHeader from '../ui/SectionHeader.jsx';
 import { staggerContainer } from '../../lib/motion.js';
 import { projects } from '../../data/projects.js';
@@ -17,6 +20,9 @@ const iconMap = { Mail, Zap, HeartPulse, WandSparkles, GraduationCap };
 
 export default function ProjectShowcase() {
   const t = useT();
+  const [preview, setPreview] = useState(null);
+
+  const closePreview = () => setPreview(null);
 
   return (
     <section
@@ -47,13 +53,26 @@ export default function ProjectShowcase() {
         {projects.map((project, index) => {
           const Icon = iconMap[project.icon] ?? Zap;
           const translated = t.projects.items[project.translationKey];
+          const openLabel = t.projects.viewScreenshot.replace(
+            '{title}',
+            translated.title
+          );
           return (
             <BentoCard
               key={project.id}
+              as="button"
+              type="button"
               accent={project.accent}
               delay={index * 0.08}
+              onClick={() =>
+                setPreview({
+                  src: project.image,
+                  title: translated.title,
+                })
+              }
+              aria-label={openLabel}
               className={[
-                'flex h-full flex-col gap-6',
+                'flex h-full w-full cursor-pointer flex-col gap-6 text-left',
                 project.span ?? 'lg:col-span-1',
               ].join(' ')}
             >
@@ -93,10 +112,32 @@ export default function ProjectShowcase() {
                   {translated.description}
                 </p>
               </div>
+
+              {project.image ? (
+                <p
+                  className={[
+                    'mt-auto inline-flex items-center gap-1.5 text-xs font-medium',
+                    project.accent === 'cyan'
+                      ? 'text-glow/80 group-hover:text-glow'
+                      : 'text-accent-400/80 group-hover:text-accent-300',
+                  ].join(' ')}
+                >
+                  <Expand className="size-3.5 shrink-0" aria-hidden="true" />
+                  {t.projects.viewScreenshotHint}
+                </p>
+              ) : null}
             </BentoCard>
           );
         })}
       </motion.div>
+
+      <ProjectImageLightbox
+        open={Boolean(preview)}
+        imageSrc={preview?.src}
+        title={preview?.title ?? ''}
+        closeLabel={t.projects.closeScreenshot}
+        onClose={closePreview}
+      />
     </section>
   );
 }

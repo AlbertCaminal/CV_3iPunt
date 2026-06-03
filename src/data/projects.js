@@ -5,6 +5,7 @@ export const projects = [
     icon: 'GraduationCap',
     accent: 'cyan',
     span: 'lg:col-span-3',
+    image: '/AI_Automator.png',
   },
   {
     id: 'signatures',
@@ -12,6 +13,7 @@ export const projects = [
     icon: 'Mail',
     accent: 'cyan',
     span: 'lg:col-span-2',
+    image: '/firma.png',
   },
   {
     id: 'wordpressAI',
@@ -19,6 +21,7 @@ export const projects = [
     icon: 'WandSparkles',
     accent: 'blue',
     span: 'lg:col-span-1',
+    image: '/wordpress.png',
   },
   {
     id: 'landings',
@@ -26,6 +29,7 @@ export const projects = [
     icon: 'Zap',
     accent: 'blue',
     span: 'lg:col-span-1',
+    image: '/landing_generator.png',
   },
   {
     id: 'healthApp',
@@ -33,5 +37,6 @@ export const projects = [
     icon: 'HeartPulse',
     accent: 'cyan',
     span: 'lg:col-span-2',
+    image: '/3iFit.png',
   },
 ];

@@ -20,6 +20,7 @@ export default function BentoCard({
   as = 'div',
   delay = 0,
   spotlight = true,
+  ...rest
 }) {
   const MotionComponent = motion[as] ?? motion.div;
   const cardRef = useRef(null);
@@ -57,6 +58,7 @@ export default function BentoCard({
         interactive ? accentBorderHover[accent] ?? accentBorderHover.blue : '',
         className,
       ].join(' ')}
+      {...rest}
     >
       {spotlight && interactive ? (
         <motion.div
